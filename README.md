@@ -6,7 +6,7 @@ Aim:
 
 Datasets:
 
-     IMDb_Movies India dataset: It contains the details like actor1 ,actor2, actor3, rating ,genre ,duration ,year ,name , director ,votes, etc,,..
+   IMDb_Movies India dataset: It contains the details like actor1 ,actor2, actor3, rating ,genre ,duration ,year ,name , director ,votes, etc,,..
 
 
 Libraries Used:
@@ -33,19 +33,12 @@ The following important libraries were used for this project:
 Data Exploration and Preprocessing:
    
      1.The IMDb_Movies India dataset was loaded as DataFrames from separate CSV files.
-   
      2.The missing values in each DataFrame were dropped using dropna(inplace=True).
-   
      3.The shape and descriptive statistics for each DataFrame were displayed using df.shape and df.describe().
-   
      4.The 'Gender' column in Users_data was encoded from categorical to numerical values using LabelEncoder.
-   
      5.The DataFrames were concatenated horizontally using pd.concat to create a final dataset df_data.
-   
      6.Unnecessary columns like 'Occupation', 'Zip-code', and 'Timestamp' were dropped from the final dataset to create df2.
-   
      7.Any remaining missing values in the final dataset df2 were dropped using dropna().
-   
      8.Data visualization was performed using count plots and histograms to gain insights into the distribution of ratings, 
        genders, and age.
 
